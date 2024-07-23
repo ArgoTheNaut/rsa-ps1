@@ -15,8 +15,8 @@ Once the repository is cloned, just run the following command to create the publ
 # Use
 
 ## Encryption
-
-Use `./rsa-Encrypt.ps1` to encode data:
+Use `./rsa-Encrypt.ps1` to encode data:  
+By default, the secret string will be output to `EncryptedMessage.txt` in your current working directory.
 
 ```ps1
 .\rsa-Encrypt.ps1 -Message "Here be dragons"
