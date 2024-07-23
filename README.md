@@ -2,6 +2,8 @@
 
 A set of minimal wrapper scripts for quick use of RSA with locally stored public/private keys.
 
+DISCLAIMER: This is not robust software.  It has not been rigorously tested to work with all file types and strange/non-ASCII byte sequences.  I threw this together quickly to see if it was possible to send a secure string to a friend without needing to install any additional software on windows.  There are definitely better and more robust ways to do this.
+
 # Setup
 
 Once the repository is cloned, just run the following command to create the public/private key pair.
